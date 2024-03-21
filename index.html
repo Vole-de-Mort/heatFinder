@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>weatherFinder</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <span></span>
+  <div class="container">
+    <div class="header">
+      <h1 class="weather-heading">Weather <span>Finder</span></h1>
+      <div>
+        <input type="text" class="zone" id="city" placeholder="name a city">
+      <input type="text" class="zone" id="numDays" placeholder="How many days ?">
+      </div>
+      <button type="button" id="btn">Search</button>
+    </div>
+    <div class="main hidden" id="main">
+      <div class="loadingComponent">Loading ....</div>
+      <div class="today">
+        <div class="boo">
+          <div class="box box1">
+          </div>
+          <div class="box box2">
+          </div>
+        </div>
+        <div class="box box3">
+        </div>
+      </div>
+      <div class="box forecast">
+      </div>
+    </div>
+    
+    
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
